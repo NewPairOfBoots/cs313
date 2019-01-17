@@ -28,7 +28,7 @@ li a:hover {
 }
 
 .active {
-	background-color: white;
+	background-color: lightblue;
 }
 </style>
 </head>
