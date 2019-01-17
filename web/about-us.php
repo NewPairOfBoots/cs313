@@ -28,7 +28,7 @@ li a:hover {
 }
 
 .active {
-  background-color: lightblue;
+  background-color: darkblue;
 }
 
 </style>
@@ -41,6 +41,8 @@ li a:hover {
   <li><a class="active" href="#aboutus">About Us</a></li>
   <li><a href="/login.php">Login</a></li>
 </ul>
+
+<h1>  o hai</h1>
 
 </body>
 

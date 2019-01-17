@@ -28,7 +28,7 @@ li a:hover {
 }
 
 .active {
-	background-color: lightblue;
+	background-color: darkblue;
 }
 </style>
 </head>
@@ -42,7 +42,7 @@ li a:hover {
 </ul>
 
 	<h1>
-		Welcome. You are not logged in.
+		Welcome to Emily Is A Buttmunch. You are not logged in.
 	</h1>
 
 </body>
