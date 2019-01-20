@@ -16,6 +16,10 @@ img.clickable:hover {
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+h1 {
+	color: darkblue;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
