@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<<?php include("navigation.php"); ?>
+	<<?php include("/includes/navigation.php"); ?>
 
 </body>
 </html>
