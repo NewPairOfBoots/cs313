@@ -11,6 +11,11 @@ div.maintext {
 	font-size: 22px;
 }
 
+img.clickable:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
