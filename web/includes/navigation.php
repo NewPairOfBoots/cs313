@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,15 +25,9 @@ li a:hover:not(.active) {
 .active {
   background-color: #4CAF50;
 }
-</style>
-</head>
-<body>
 
 <ul>
   <li><a href="/homepage.php">Home</a></li>
   <li><a href="/assignments.php">Assignments</a></li>
   <li><a href="/music.php">My Music</a></li>
 </ul>
-
-</body>
-</html>
