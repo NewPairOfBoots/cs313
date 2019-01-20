@@ -7,6 +7,10 @@ body {
   height: auto;
 }
 
+div.maintext {
+	font-size: 22px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
