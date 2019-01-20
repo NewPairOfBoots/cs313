@@ -42,7 +42,11 @@ li a:hover {
   <li><a class="active" href="#login">Login</a></li>
 </ul>
 
-<h1>we wont let you log in</h1>
+<h1>log in here</h1>
+
+<button type="button" value="Login as admin"><a href="/auth.php?user=admin"></a></button>
+<button type="button" value="Login as tester"><a href="/auth.php?user=tester"></a></button>
+
 
 </body>
 

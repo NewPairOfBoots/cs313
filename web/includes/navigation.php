@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<header></header>
 <style>
 ul {
   list-style-type: none;
@@ -23,33 +22,22 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
-	background-color: darkblue;
+  background-color: #4CAF50;
 }
 </style>
 </head>
-
 <body>
 
-	<?php
-	session_start();
-	$_SESSION["user"] = "none";
-	?>
-
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="/about-us.php">About Us</a></li>
-  <li><a href="/login.php">Login</a></li>
+  <li><a href="/homepage.php">Home</a></li>
+  <li><a href="/assignments.php">Assignments</a></li>
+  <li><a href="/music.php">My Music</a></li>
 </ul>
 
-	<h1>
-		Welcome to Emily Is A Buttmunch. You are not logged in.
-	</h1>
-
 </body>
-
 </html>
